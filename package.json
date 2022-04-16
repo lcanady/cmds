@@ -1,11 +1,14 @@
 {
   "name": "@digibear/mucmds",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "scripts": {
     "build" :"tsc -p tsconfig.json",
     "prepublish": "npm run build"
   },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.24",
